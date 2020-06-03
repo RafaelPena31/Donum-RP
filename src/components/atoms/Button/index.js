@@ -17,7 +17,7 @@ const Button = (props) =>
     </button>
   ) : (
     <Link
-      to="/Login"
+      to="/"
       style={
         props.type === "btn-off"
           ? { backgroundColor: "#fff", color: "#f62210" }

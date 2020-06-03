@@ -1,5 +1,5 @@
 import React from "react";
-import Iphone from "./components/organims/Iphone";
+import { HomePage } from "./screens/homepage";
 import { BrowserRouter } from "react-router-dom";
 import "./styles/standart.css";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Iphone />
+        <HomePage />
       </div>
     </BrowserRouter>
   );

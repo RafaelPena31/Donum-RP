@@ -1,27 +1,25 @@
-import React from 'react'
-import {createUseStyles} from 'react-jss'
-import Header from '../../organims/Header';
+import React from "react";
+import { createUseStyles } from "react-jss";
+import { Header } from "../../organims/Header";
 
 const useStyles = createUseStyles({
   cover: {
     width: "100%",
-    height: "100vh",
+    height: "100%",
     flexDirection: "column",
-    justifyContent: "space-between"
-  }
-})
+    justifyContent: "space-between",
+  },
+});
 
 const ScreenTemplate = (props) => {
-
-  const classes = useStyles()
+  const classes = useStyles();
 
   return (
     <div className={classes.cover}>
       <Header />
-        {props.children}
+      {props.children}
     </div>
-  )
-
-}
+  );
+};
 
 export default ScreenTemplate;
