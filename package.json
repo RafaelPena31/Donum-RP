@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "donum",
-=======
-  "name": "donum_web",
->>>>>>> 20648deef62571bc375738324676a53c427a8db7
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,11 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "react-jss": "^10.1.1",
     "react-router-dom": "^5.2.0",
-=======
->>>>>>> 20648deef62571bc375738324676a53c427a8db7
     "react-scripts": "3.4.1"
   },
   "scripts": {
