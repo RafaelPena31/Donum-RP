@@ -17,7 +17,7 @@ export const PickerState = () => (
 
 export const PickerCity = () => (
   <select id="select-main">
-    <option value="City">Brazil</option>
+    <option value="City">City</option>
     <option value="Belo Horizonte">Belo Horizonte</option>
     <option value="Contagem">Contagem</option>
     <option value="Nova Lima">Nova Lima</option>

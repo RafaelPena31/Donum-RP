@@ -25,6 +25,15 @@
   text-decoration: underline;
 }
 
+#logoOrange{
+  color: #f62210;
+  font-family: Patua One;
+  font-size: 25pt;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 #homeLink {
   font-family: nunito;
   font-size: 17pt;
@@ -85,25 +94,31 @@
   padding-left: 10px;
   font-size: 18px;
   margin-top: 30px;
+  cursor: pointer;
 }
 #input::placeholder {
   color: grey;
-  text-align: justify;
+  text-align: left;
 }
 
 #select-main {
   width: 320px;
   height: 40px;
   border-radius: 5px;
-  background-color: #fcfaf8;
-  border: 1.5px solid #f0f0f0;
+  background-color: #fefefe;
+  border: 1.5px solid #d3d3d3;
   box-sizing: border-box;
-  color: grey;
+  color: #383838;
   letter-spacing: 0.7px;
   text-align: justify;
   padding-left: 10px;
   font-size: 18px;
   margin-top: 30px;
+}
+
+#select-main::placeholder {
+  color: grey;
+  text-align: left;
 }
 
 #txt {
@@ -115,11 +130,35 @@
   text-align: left;
 }
 
+#txt-campaign{
+  margin: 0;
+  font-family: nunito;
+  font-size: 12pt;
+  color: #202020;
+  text-align: left;
+}
+
+.displayed-text{
+  font-size: 14pt;
+}
+
+.read-more-button{
+  color: rgb(37, 40, 161);
+  font-size: 14pt;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.read-more-button:hover{
+  text-decoration: underline;
+}
+
 #txt-off {
   font-family: nunito;
   font-size: 12pt;
   color: #646464;
   text-align: center;
+  margin-top: 4px;
 }
 
 #file-main {
@@ -128,7 +167,19 @@
 
 /* Atoms END */
 
+
 /* ------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* Molecules */
+
+
+
+/* Molecules END */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
 
 /* Organims */
 

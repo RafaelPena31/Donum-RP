@@ -17,10 +17,10 @@ const Button = (props) =>
     </button>
   ) : (
     <Link
-      to="/"
+      to={props.link}
       style={
         props.type === "btn-off"
-          ? { backgroundColor: "#fff", color: "#f62210" }
+          ? { backgroundColor: "#fff", color: "#f62210", }
           : { backgroundColor: "#f62210", color: "#fff" }
       }
       id={props.type}
