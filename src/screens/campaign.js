@@ -3,7 +3,7 @@ import ScreenTemplate from "../components/templates/screenTemplate";
 import { CampaignBox as Box } from "../components/molecules/CampaignBox";
 import { createUseStyles } from "react-jss";
 import Title from "../components/atoms/Title";
-import '../styles/stylePrincipal.css';
+import "../styles/stylePrincipal.css";
 
 const useStyle = createUseStyles({
   cover: {
@@ -20,7 +20,7 @@ export const Campaign = () => {
 
   return (
     <ScreenTemplate>
-        <Title id="title" title="Actives campaign"/>
+      <Title id="title" title="Actives campaign" />
       <div className={classes.cover}>
         <Box
           text="Ipsum in pariatur culpa ea consequat aliqua aute ipsum Lorem esse magna. Pariatur eiusmod adipisicing laborum dolor exercitation ullamco excepteur. Nulla exercitation velit irure excepteur occaecat. Dolor fugiat consectetur id labore occaecat cillum. Esse qui aliquip amet aute ipsum amet laborum. Ullamco sit aliquip adipisicing esse aute aliqua in qui incididunt ex."
